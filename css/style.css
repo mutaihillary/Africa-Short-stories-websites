@@ -1,11 +1,125 @@
-p,h1{font-family:   'Lato', sans-serif;}
+/****************
+General
+/****************/
+body {
+	font-family: 'open Sans' sans-serif;
+}
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+	background: #fff;
+}
+a {
+	text-decoration: none;
+}
+h3{
+	margin: 0 0 1em 0;
+}
+/****************
+Heading
+/****************/
+header{
+	float: left;
+	margin: 0 0 30 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+#logo{
+	text-align: center;
+	margin-left: 5%
+	text-align: left;
+	width: 45%
+}
+h1 {
+	font-family: 'changa one', sans-serif;
+	margin: 15px 0;
+	font-size: 1.75em;
+	font-weight: normal;
+	line-height: 0.8em;
 
-body{
-    
-    background-color: darkgrey
+ h2 {
+		font-size: 0.75em
+		margin: -5px 0 0;
+		font-weight:normal;
+	}
+}
+/****************
+Navigation
+/****************/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+nav u {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+nav li {
+display: inline-block;
+}
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
 }
 
+/****************
+Footer
+/****************/
 footer{
-    
-    color: blue;
+	font-size: 0.75em;
+	text-align: center;
+	padding: 0;
+	color: #ccc;
+	list-style: none;
+}
+ footer u {
+ 	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+ }
+ footer li{
+display: inline-block;
+ }
+ footer a {
+ 	font-weight: 800;
+	padding: 15px 10px;
+ }
+/****************
+Color 
+/****************/
+/* site body*/
+body{
+	background-color: #fff;
+	color: #999;
+}
+
+/*green header*/
+	header {
+		background-color: #6ab47b;
+		border-color: #599a68;
+}
+/*nav link*/
+
+nav a, nav a:visited {
+	color: #fff;
+}
+/*logo text*/
+h1, h2 {
+	color: #fff;
+}
+/*link color*/
+a {
+	color: #6ab47b;
+}
+/*nav background on mobile*/
+nav {
+	background-color: #599a68;
+}
+/*selected nav link*/
+nav a.selected, nav a:hover {
+color: #32673f
 }
